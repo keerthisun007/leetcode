@@ -3,10 +3,8 @@ class Solution {
        double kelvin = celsius + 273.15;
         double fahrenheit = celsius * 1.80 + 32.00;
         
-        // Step 1: Pack the tray and give it a name ("ans")
         double[] ans = {kelvin, fahrenheit}; 
-        
-        // Step 2: Hand over the named tray
+        //here we are using array because we cannot return two variables in java..that is return kelvin,fahrenheit(not possible); 
         return ans;
     }
 }
