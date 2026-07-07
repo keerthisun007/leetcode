@@ -4,7 +4,7 @@ class Solution {
         double fahrenheit = celsius * 1.80 + 32.00;
         
         double[] ans = {kelvin, fahrenheit}; 
-        //here we are using array because we cannot return two variables in java..that is return kelvin,fahrenheit(not possible); 
+        //here we are using array because we cannot return two variables in java..that is return kelvin,fahrenheit;(not possible); 
         return ans;
     }
 }
