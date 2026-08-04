@@ -7,8 +7,9 @@ class Solution {
         return result;
     }
 }
-//If duplicate numbers should cancel out and only the unique number should remain, use XOR (^).
-
+// XOR works perfectly when:
+// Every duplicate appears exactly 2 times (or any even number of times).
+// Only one element appears once.
 /*
 check each element with the entire list
 class Solution {
