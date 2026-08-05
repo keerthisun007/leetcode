@@ -14,3 +14,12 @@ class Solution {
         return true;
     }}
 }
+/*
+this is the main logic
+while (number > 0)
+{
+    digit = number % 10;          // Take last digit
+    reverse = reverse * 10 + digit; // Append to reverse
+    number = number / 10;         // Remove last digit
+}
+*/
