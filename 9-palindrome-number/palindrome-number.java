@@ -1,13 +1,13 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        int a=x;
+        int duplicate=x;
         int reversed=0;
         while(x>0){
-            int digit= x%10;
-             reversed=reversed*10+digit ;
-            x/=10;
+            int digit= x%10;// Take last digit
+             reversed=reversed*10+digit ; // Append the last number
+            x/=10;// Remove last digit
         }
-        if(a!=reversed || x<0){
+        if(duplicate !=reversed || x<0){
             return false;
         }
         else{
