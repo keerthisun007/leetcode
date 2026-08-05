@@ -7,7 +7,7 @@ class Solution {
              reversed=reversed*10+digit ; // Append the last number
             x/=10;// Remove last digit
         }
-        if(duplicate !=reversed || x<0){
+        if(duplicate !=reversed || x<0 /* takes only the +ve number*/  ){
             return false;
         }
         else{
