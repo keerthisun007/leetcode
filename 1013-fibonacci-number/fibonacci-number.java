@@ -15,6 +15,6 @@ class Solution {
             b=c;
             i++;
         }
-        return c;
+        return b;
     }
 }
