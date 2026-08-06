@@ -18,3 +18,8 @@ class Solution {
         return b;
     }
 }
+
+/*
+Question: Print Fibonacci Series → System.out.print(a + " ");
+Question: Print nth Fibonacci Number → System.out.println(b);
+*/
