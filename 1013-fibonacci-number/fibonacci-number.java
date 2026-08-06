@@ -5,17 +5,17 @@ class Solution {
 
         if (n == 1)
             return 1;
-        int a=0;
-        int b=1;
-        int c=0;
-        int i=1;
-        while(i<n){
-            c=a+b;
-            a=b;
-            b=c;
-            i++;
-        }
-        return c;
+        // int a=0;
+        // int b=1;
+        // int c=0;
+        // int i=1;
+        // while(i<n){
+        //     c=a+b;
+        //     a=b;
+        //     b=c;
+        //     i++;
+        // }
+        return fib(n-1)+fib(n-2);
     }
 }
 
