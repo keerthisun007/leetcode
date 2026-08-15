@@ -13,7 +13,7 @@ class Solution {
 
         // RIGHT PRODUCTS
         product = 1;
-
+ 
         for (int i = nums.length - 1; i >= 0; i--) {
             keerthi[i] = keerthi[i] * product;
             product = product * nums[i];
