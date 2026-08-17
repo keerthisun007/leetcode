@@ -14,7 +14,7 @@ class Solution {
                 right--; // Need a smaller sum
             }
         }
-        return new int[]{};
+        return null;
     }
 }
 
