@@ -18,6 +18,9 @@ class Solution {
     }
 }
 
+//We place one pointer at the smallest number (start) and one at the largest (end) to add them together. 
+
+// If their sum is too small, we move the start pointer forward to increase the total; if it is too big, we move the end pointer backward to decrease it until we find the exact target.
 
 
 
@@ -28,8 +31,7 @@ class Solution {
 
 
 
-
-    //    int[] k = new int[2];
+//    int[] k = new int[2];
 //         for(int i=0;i<numbers.length;i++){
 //         for(int j=i+1;j<numbers.length;j++){
 //             if(numbers[i]+numbers[j]==target){
