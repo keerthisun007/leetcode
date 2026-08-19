@@ -4,3 +4,4 @@ class Solution {
         return k;
     }
 }
+//we have just used the replace function
