@@ -19,3 +19,7 @@ for (int num : set1) {
 return arr;
     }
 }
+/*
+Convert both arrays into HashSets, then use retainAll() to keep only the common elements (intersection).
+Create an int[] and copy the elements from the resulting set into the array.
+*/
