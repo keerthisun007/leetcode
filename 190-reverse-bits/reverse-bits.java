@@ -14,6 +14,6 @@ class Solution {
         }
         
         // Fix 2: Parse as unsigned integer to prevent overflow
-        return Integer.parseUnsignedInt(b, 2);
+        return Integer.parseInt(b, 2);
     }
 }
