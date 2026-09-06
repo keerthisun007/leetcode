@@ -11,3 +11,8 @@ class Solution {
    return true;
     }
 }
+/*
+First, it counts and stores the frequency of every available letter from the magazine in a 26-slot array.
+
+Next, it subtracts each letter needed for ransomNote, immediately returning false if any letter count drops below zero.
+*/
