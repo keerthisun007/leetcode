@@ -10,3 +10,4 @@ class Solution {
         return n==1;
     }
 }
+//The code first returns `false` for non-positive numbers, since powers of four must be positive. It repeatedly divides `n` by `4`, and returns `true` only if the final value becomes `1`.
