@@ -9,3 +9,4 @@ class Solution {
         return n==1;
     }
 }
+//same code for all power of 3,power of 4
