@@ -10,8 +10,9 @@ class Solution {
     }
     continue;
 }
+else{
 
-count++;}
+count++;}}
 return count;
     }
 }
