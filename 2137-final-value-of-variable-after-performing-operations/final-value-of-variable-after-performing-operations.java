@@ -12,3 +12,5 @@ class Solution {
         return k;
     }
 }
+// == → compare primitive values (int, char, boolean, etc.)
+// .equals() → compare String/Object contents ("abc", "++X", etc.)
