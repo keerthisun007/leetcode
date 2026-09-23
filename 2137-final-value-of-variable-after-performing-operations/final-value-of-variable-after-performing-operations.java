@@ -1,14 +1,14 @@
 class Solution {
     public int finalValueAfterOperations(String[] operations) {
-        int x=0;
-        for(String keerthi:operations){
-            if(keerthi.equals("--X")|| keerthi.equals("X--")){
-                x-=1;
+        int k=0;
+        for(int i=0;i<operations.length;i++){
+            if(operations[i].equals("++X") || operations[i].equals("X++")){
+                k+=1;
             }
             else{
-                x+=1;
+                k-=1;
             }
         }
-        return x;
+        return k;
     }
 }
