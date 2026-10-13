@@ -25,3 +25,10 @@ class Solution {
         }
         return new ArrayList<>(ans);
     }}
+
+    /*
+    1. Set<List<Integer>> ans = new HashSet<>(); → Creates a Set to store triplets and avoid duplicate lists.
+2. ans.add(Arrays.asList(nums[i], nums[left], nums[right])); → Groups the three numbers into a List and adds that triplet to the Set.
+3. return new ArrayList<>(ans); → Converts the Set into a List because the method must return a List of triplets.
+
+*/
