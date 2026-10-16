@@ -16,3 +16,9 @@ class Solution {
         return arr;
     }
 }
+
+/*
+1. The HashSet checks whether each number already exists; if yes, list.add(k) stores the duplicate, otherwise set.add(k) remembers the number.
+2. Finally, convert the list into an integer array and return it as the answer.
+
+*/
