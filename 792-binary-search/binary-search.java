@@ -18,3 +18,12 @@ class Solution {
         return -1;
     }
 }
+/*
+1. Compare with target, not indices: Use nums[mid] < target or nums[mid] > target.
+
+2. Eliminate half, not one element: Use left = mid + 1 or right = mid - 1, not left++ or right--.
+
+3. Update mid inside the loop: Use while (left <= right) to check every possible element, including the last one.
+
+Remember: Compare → Eliminate Half → Recalculate Mid.
+*/
