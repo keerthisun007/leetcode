@@ -16,7 +16,7 @@ class Solution {
             }
         }
         if((long)mid * mid != x){
-            return right;
+            return left -1;
         }
         return 0;
     }
