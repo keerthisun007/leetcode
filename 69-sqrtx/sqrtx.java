@@ -16,8 +16,22 @@ class Solution {
             }
         }
         if((long)mid * mid != x){
-            return left -1;
+            return right;
         }
         return 0;
     }
 }
+
+/*
+
+class Solution {
+    public int mySqrt(int x) {
+        for (int i = 0; i <= x; i++) {
+            if ((long) i * i > x) {
+                return i - 1;
+            }
+        }
+        return x;
+    }
+}
+*/
